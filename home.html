@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+     <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  
+</head>
+
+<body>
+        <nav>
+                <div class="nav-wrapper amber">
+                  <a href="#" class="brand-logo ">Logo</a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <a class="waves-effect waves-light btn blue">Cerrar sesion</a>
+                  </ul>
+                </div>
+        </nav>
+
+        <div style="margin-top: 2vw;margin-right: 1vw" class="container">
+  
+          <div class="row">
+  
+              <div class="input-field col s4 ">
+                  <select>
+                  <option value="" disabled selected>Categorias</option>
+                  <option value="1">Matematicas</option>
+                  <option value="2">Lenguaje</option>
+                  <option value="3">Ingles</option>
+                  <option value="3">Ciencias</option>
+                  </select>
+                  <label>Materialize Select</label>
+              </div>
+              <div class="input-field col s4">
+                      <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+              </div>
+              <a style="margin-top:2vw" class="waves-effect waves-light btn blue">Buscar</a>
+          </div>  
+  
+      </div> 
+
+
+
+
+        <div  style="margin-top: 2vw" class="container">
+               <div class="carousel carousel-slider">
+                <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/2.jpg"></a>
+                <a class="carousel-item" href="#three!"><img src="img/3.jpg"></a>
+                <a class="carousel-item" href="#four!"><img src="img/4.jpg"></a>
+        </div>
+        </div>
+     
+
+
+
+
+
+      
+     
+ 
+
+
+  <footer style="padding: 0px" class="page-footer white">
+   
+      <div class="footer-copyright">
+        <div class="container black-text">
+        © 2014 Copyright Text
+        <a class="black-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+        
+  
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+   $(document).ready(function(){
+    $('select').formSelect();
+  });
+  
+  $('.carousel.carousel-slider').carousel();
+  
+  </script>
+
+ 
+    
+</body>
+
+</html>
